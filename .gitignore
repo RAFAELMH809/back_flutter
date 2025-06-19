@@ -1,0 +1,39 @@
+
+# Entorno virtual (si lo tienes dentro del proyecto)
+venv/
+.env
+*.env
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs y errores
+*.log
+
+# Archivos y carpetas temporales
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Archivos generados por Django
+/staticfiles/
+/media/
+/*.pot
+*.pyc
+
+# Migraciones opcionalmente (solo si no quieres versionarlas, pero **recomendado sí incluirlas**)
+# */migrations/  <-- solo si usas migraciones auto-generadas y no quieres trackearlas (pero se recomienda sí hacerlo)
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
